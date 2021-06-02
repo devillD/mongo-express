@@ -49,3 +49,5 @@ RUN set -x \
 RUN npm run build
 
 CMD ["tini", "--", "npm", "start"]
+EXPOSE 27017
+EXPOSE 8080
