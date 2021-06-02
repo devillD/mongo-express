@@ -1,0 +1,19 @@
+{
+    "name": "MongoDB",
+    "description": "A test mongo db",
+    "keywords": [
+      "mongodb",
+      "docker"
+    ],
+    "repository": "https://github.com/devillD/Torrent-Searcher.git",
+    "website": "https://t.me/trntsrcbot",
+    "success_url": "https://t.me/trntsrcbot",
+    "stack": "container",
+    "env": {
+      "ENV": {
+        "description": "The telegram bot token that you get from @BotFather.",
+        "value": "ANYTHING",
+        "required": false
+      }
+    }
+}
